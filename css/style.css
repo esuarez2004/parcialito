@@ -1,0 +1,53 @@
+
+.section{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: rgba(162, 113, 207, 0.691);
+    padding: 15px;
+    height: 650px;
+}
+.img{
+    height: 150px;
+}
+.fiona{
+    background-color: rgba(122, 230, 194, 0.787);
+    margin: 15px;
+    padding: 15px;
+    width: 150px;
+    align-items: stretch;
+    order: 1;
+}
+.pinocho{
+    background-color: rgba(122, 230, 194, 0.787);
+    margin: 15px;
+    padding: 15px;
+    width: 150px;
+    align-self: flex-start;
+    order: 4;
+}
+.shrek{
+    background-color: rgba(122, 230, 194, 0.787);
+    margin: 15px;
+    padding: 15px;
+    width: 150px;
+    align-self: center;
+    justify-content: flex-end;
+    order: 5;
+}
+.gato{
+    background-color: rgba(122, 230, 194, 0.787);
+    margin: 15px;
+    padding: 15px;
+    width: 150px;
+    align-self: flex-end;
+    order: 2;
+}
+.burro{
+    background-color: rgba(122, 230, 194, 0.787);
+    margin: 15px;
+    padding: 15px;
+    width: 150px;
+    align-self: center;
+    order: 3;
+}
